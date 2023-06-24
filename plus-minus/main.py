@@ -2,7 +2,7 @@ def plus_minus(arr: list[int]) -> None:
     pos: float = 0
     neg: float = 0
     zer: float = 0
-    size: float = len(arr)
+    size: float = float(len(arr))
 
     for n in arr:
         if n == 0:
